@@ -10,13 +10,15 @@
 - 2026-11-05 — Use a dedicated GitHub repository for this skill test, not the main AI Success Patterns project record. Reason: keep the test separate from the production project.
 - 2026-11-05 — Store a brief Markdown handoff note with four headings: Sources, Decisions, Next, and Notes for the next session. Reason: verify that a new chat can reconstruct working context from the record rather than conversation memory.
 
+- 2026-11-05 — Mark the fresh-chat GitHub handoff retrieval check as successful and proceed to the persistence-update check. Reason: the new conversation reproduced the work, dated decisions, and next steps from the external record, as reported by the tester.
+
 ## Next
-1. Read this file directly from GitHub in a new chat.
-2. Summarize in three lines: what the work is, latest decisions, and what comes next.
-3. Test updating the note with a new dated decision and reason.
-4. Confirm that the next session uses the repository record if chat recollection conflicts with it.
+1. In a new chat, read this updated file directly from GitHub and identify the 2026-11-05 decision marking fresh-chat retrieval as successful.
+2. Confirm the updated decision and its reason survive another conversation boundary.
+3. In a later test, check whether the repository record wins if conversation recollection conflicts with it.
 
 ## Notes for the next session
 - This is Test 4 of 6, for the AI Success Patterns skill `The Chat Is Not Your Memory`.
 - Do not rely on earlier chat history; use this file as the source of truth.
 - Do not put confidential AI adoption project details here: the test repository is public.
+- The first fresh-chat retrieval check was reported as successful on 2026-11-05. This update provides the follow-on persistence test.
